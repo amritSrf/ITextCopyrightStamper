@@ -1,0 +1,1 @@
+This is sample PDF copyright stamping text at the footer of PDF.
