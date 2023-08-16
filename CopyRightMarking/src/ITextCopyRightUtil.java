@@ -1,5 +1,3 @@
-
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -28,7 +26,7 @@ import com.itextpdf.layout.property.VerticalAlignment;
  */
 public class ITextCopyRightUtil 
 {
-    
+    //AGPL License URL : https://github.com/amritSrf/ITextCopyrightStamper
 	// STAMPING USING ITEXT
 	public static void stampPdf(String inputPdfPath, String outputPDfpath, String text) throws Exception {
 			PdfReader reader = new PdfReader(inputPdfPath);
@@ -57,6 +55,7 @@ public class ITextCopyRightUtil
 			}
 			document.close();
 			pdfDoc.close();
+			System.out.println("PDF updated");
 		}
 
 
